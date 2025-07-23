@@ -67,7 +67,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.2.2"
 
-gem "rails", "7.1.5.1"
+gem "rails", "8.0.2"
 gem "sassc-rails",     "2.1.2"
 gem "sprockets-rails", "3.4.2"
 gem "importmap-rails", "1.1.5"
@@ -90,7 +90,7 @@ end
 group :development do
   gem "web-console",         "4.2.0"
   gem "solargraph",          "0.53.4"
-  gem "irb",                 "1.10.0"
+  gem "irb",                 "1.15.2"
   gem "repl_type_completor", "0.1.2"
 end
 
