@@ -76,7 +76,7 @@ gem "stimulus-rails",  "1.2.1"
 gem "jbuilder",        "2.11.5"
 gem "puma",            "~> 6.4"
 gem "bootsnap",        "1.16.0", require: false
-gem "sqlite3",         "1.6.1"
+gem "sqlite3",         "2.7.4"
 gem "concurrent-ruby", "1.3.4"
 gem "solid_queue",     "~> 0.4.0"
 gem "dalli", "~> 3.2"
